@@ -1,0 +1,12 @@
+{
+  "name": "build-it-in-60",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Collection of mini React projects",
+  "workspaces": [
+    "c-grid-uber"
+  ],
+  "scripts": {
+    "start:c-grid-uber": "npm start --workspace=c-grid-uber"
+  }
+}

@@ -1,0 +1,14 @@
+.cell__container {
+    width: 80px;
+    height: 80px;
+    outline: 1px solid black;
+    cursor: pointer;
+}
+
+.isTile {
+    background-color: brown;
+}
+
+.isClicked {
+    background-color: green;
+}
