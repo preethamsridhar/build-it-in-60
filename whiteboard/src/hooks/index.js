@@ -24,15 +24,16 @@ export const useWhiteBoard = (rows, cols, shapeConfig) => {
     }
 
     const moveShape = (fromCellId, toCellId, shapeId) => {
-        console.log("🚀 ~ moveShape ~ fromCellId, toCellId, shapeId:", fromCellId, toCellId, shapeId)
-        dispatch({
-            type: actions.moveShape,
-            payload: {
-                fromCellId,
-                toCellId,
-                shapeId,
-            }
-        })
+        if (state.byId[toCellId].value === null) {
+            dispatch({
+                type: actions.moveShape,
+                payload: {
+                    fromCellId,
+                    toCellId,
+                    shapeId,
+                }
+            })
+        }
     }
 
     return {
