@@ -4,9 +4,11 @@
   "private": true,
   "description": "Collection of mini React projects",
   "workspaces": [
-    "c-grid-uber"
+    "c-grid-uber",
+    "tic-tac-toe"
   ],
   "scripts": {
-    "start:c-grid-uber": "npm start --workspace=c-grid-uber"
+    "start:c-grid-uber": "npm start --workspace=c-grid-uber",
+    "start:tic-tac-toe": "npm start --workspace=tic-tac-toe"
   }
 }
