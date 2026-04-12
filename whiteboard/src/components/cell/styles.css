@@ -1,0 +1,6 @@
+.cell__container {
+    border: 1px solid black;
+    display: inline-block;
+    align-items: center;
+    text-align: center;
+}

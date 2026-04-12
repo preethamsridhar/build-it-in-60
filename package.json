@@ -5,10 +5,12 @@
   "description": "Collection of mini React projects",
   "workspaces": [
     "c-grid-uber",
-    "tic-tac-toe"
+    "tic-tac-toe",
+    "whiteboard"
   ],
   "scripts": {
     "start:c-grid-uber": "npm start --workspace=c-grid-uber",
-    "start:tic-tac-toe": "npm start --workspace=tic-tac-toe"
+    "start:tic-tac-toe": "npm start --workspace=tic-tac-toe",
+    "start:whiteboard": "npm start --workspace=whiteboard"
   }
 }
