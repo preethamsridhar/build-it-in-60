@@ -10,6 +10,24 @@ export const shapeConfig = {
         x: "0",
         y: "1",
         type: "rectangle"
+    },
+    "shape3": {
+        id: "shape3",
+        x: "1",
+        y: "1",
+        type: "rectangle"
+    },
+    "shape4": {
+        id: "shape4",
+        x: "1",
+        y: "2",
+        type: "rectangle"
+    },
+    "shape5": {
+        id: "shape5",
+        x: "1",
+        y: "0",
+        type: "circle"
     }
 }
 
@@ -120,12 +138,12 @@ export const whiteboardReducer = (state, action) => {
                     [fromCellId]: {
                         ...state.byId[fromCellId],
                         isSelected: false,
-                        value: null,
+                        value: state.byId[toCellId].value,
                     },
                     [toCellId]: {
                         ...state.byId[toCellId],
                         isSelected: false,
-                        value: shapeId
+                        value: state.byId[fromCellId].value
                     }
                 }
             }

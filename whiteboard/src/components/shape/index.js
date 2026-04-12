@@ -8,10 +8,9 @@ export const Shape = ({cellState, type, selectShape}) => {
     const getStyles = {
             border: cellState.isSelected ? '4px dotted black' : '4px solid black',
             width: shapeSize,
-            borderRadius: null,
             height: type === 'rectangle' ? halfShapeSize : shapeSize,
             backgroundColor: type === 'circle' ? 'red' : type === 'rectangle' ? 'yellow' : 'white',
-            borderRadius: type === 'circle' ? '50%' : 'none',
+            borderRadius: type === 'circle' ? '50%' : null,
         }
 
     const onDrag = (e) => {

@@ -24,7 +24,7 @@ export const useWhiteBoard = (rows, cols, shapeConfig) => {
     }
 
     const moveShape = (fromCellId, toCellId, shapeId) => {
-        if (state.byId[toCellId].value === null) {
+        // if (state.byId[toCellId].value === null) {
             dispatch({
                 type: actions.moveShape,
                 payload: {
@@ -33,7 +33,7 @@ export const useWhiteBoard = (rows, cols, shapeConfig) => {
                     shapeId,
                 }
             })
-        }
+        // }
     }
 
     return {
