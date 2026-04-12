@@ -15,4 +15,4 @@ Clicking an already-lit cell does nothing
 
 Once all highlighted cells are lit, the deactivation phase begins automatically
 The cells turn off one by one, in the reverse order they were clicked
-There should be a 500ms delay between each cell turning off
+There should be a 200ms delay between each cell turning off

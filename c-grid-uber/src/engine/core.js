@@ -1,5 +1,10 @@
 import { ACTIONS } from "../constants";
 
+export const getInitialState = () => {
+    const state = getGridConfig;
+    return state;
+}
+
 export const getGridConfig = {
     byId: {
         id1: {
@@ -105,7 +110,7 @@ export const gameReducer = (state, action) => {
             return returnState;
 
         case ACTIONS.restartGame: 
-            return getGridConfig;
+            return getInitialState();
         default:
             return state;
     }

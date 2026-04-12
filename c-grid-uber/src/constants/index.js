@@ -3,3 +3,5 @@ export const ACTIONS = {
     reset: 'RESET',
     restartGame: 'RESTART_GAME'
 }
+
+export const DELAY = 200;
