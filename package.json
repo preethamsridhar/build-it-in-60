@@ -6,11 +6,13 @@
   "workspaces": [
     "c-grid-uber",
     "tic-tac-toe",
-    "whiteboard"
+    "whiteboard",
+    "simple-spreadsheet"
   ],
   "scripts": {
     "start:c-grid-uber": "npm start --workspace=c-grid-uber",
     "start:tic-tac-toe": "npm start --workspace=tic-tac-toe",
-    "start:whiteboard": "npm start --workspace=whiteboard"
+    "start:whiteboard": "npm start --workspace=whiteboard",
+    "start:simple-spreadsheet": "npm start --workspace=simple-spreadsheet"
   }
 }
