@@ -7,12 +7,14 @@
     "c-grid-uber",
     "tic-tac-toe",
     "whiteboard",
-    "simple-spreadsheet"
+    "simple-spreadsheet",
+    "overlapping-circles-uber"
   ],
   "scripts": {
     "start:c-grid-uber": "npm start --workspace=c-grid-uber",
     "start:tic-tac-toe": "npm start --workspace=tic-tac-toe",
     "start:whiteboard": "npm start --workspace=whiteboard",
-    "start:simple-spreadsheet": "npm start --workspace=simple-spreadsheet"
+    "start:simple-spreadsheet": "npm start --workspace=simple-spreadsheet",
+    "start:overlapping-circles": "npm start --workspace=overlapping-circles-uber"
   }
 }
