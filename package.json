@@ -9,7 +9,8 @@
     "whiteboard",
     "simple-spreadsheet",
     "overlapping-circles-uber",
-    "bar-chart-atlassian"
+    "bar-chart-atlassian",
+    "notification-razorpay"
   ],
   "scripts": {
     "start:c-grid-uber": "npm start --workspace=c-grid-uber",
@@ -17,6 +18,7 @@
     "start:whiteboard": "npm start --workspace=whiteboard",
     "start:simple-spreadsheet": "npm start --workspace=simple-spreadsheet",
     "start:overlapping-circles": "npm start --workspace=overlapping-circles-uber",
-    "start:bar-chart": "npm start --workspace=bar-chart-atlassian"
+    "start:bar-chart": "npm start --workspace=bar-chart-atlassian",
+    "start:notification": "npm start --workspace=notification-razorpay"
   }
 }
