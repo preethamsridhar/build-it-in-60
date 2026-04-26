@@ -47,6 +47,7 @@ const gameReducer = (state, action) => {
           },
         },
       };
+      
       return returnState;
     default:
       returnState = {

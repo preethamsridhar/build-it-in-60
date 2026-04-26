@@ -1,0 +1,41 @@
+.chart {
+    position: relative;
+    margin: 16px;
+    height: 80vh;
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 100px auto;
+}
+.chart__container {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    margin: 20px;
+}
+.chart__child {
+    position: relative;
+    display: block;
+    inset: 0;
+    align-content: center;
+}
+
+.chart__yLabel {
+    width: 100%;
+    text-align: center;
+}
+
+.chart__graph {
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto 50px;
+
+}
+
+.chart__graph__bar {
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
+    background-color: antiquewhite;
+    display: grid;
+    align-items: end;
+}
