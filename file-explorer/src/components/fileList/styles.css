@@ -1,0 +1,6 @@
+.filelist__container {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    margin-left: 24px;
+}

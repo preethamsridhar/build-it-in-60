@@ -10,7 +10,9 @@
     "simple-spreadsheet",
     "overlapping-circles-uber",
     "bar-chart-atlassian",
-    "notification-razorpay"
+    "notification-razorpay",
+    "voting-polling",
+    "file-explorer"
   ],
   "scripts": {
     "start:c-grid-uber": "npm start --workspace=c-grid-uber",
@@ -19,6 +21,8 @@
     "start:simple-spreadsheet": "npm start --workspace=simple-spreadsheet",
     "start:overlapping-circles": "npm start --workspace=overlapping-circles-uber",
     "start:bar-chart": "npm start --workspace=bar-chart-atlassian",
-    "start:notification": "npm start --workspace=notification-razorpay"
+    "start:notification": "npm start --workspace=notification-razorpay",
+    "start:voting": "npm start --workspace=voting-polling",
+    "start:file-explorer": "npm start --workspace=file-explorer"
   }
 }
