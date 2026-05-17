@@ -1,0 +1,11 @@
+.options__container {
+    display: flex;
+    flex-direction: column;
+}
+
+.options__button {
+    font-size: 14px;
+    height: 32px;
+    width: 400px;
+    cursor: pointer;
+}   

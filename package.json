@@ -22,7 +22,7 @@
     "start:overlapping-circles": "npm start --workspace=overlapping-circles-uber",
     "start:bar-chart": "npm start --workspace=bar-chart-atlassian",
     "start:notification": "npm start --workspace=notification-razorpay",
-    "start:voting": "npm start --workspace=voting-polling",
+    "start:polling": "npm start --workspace=voting-polling",
     "start:file-explorer": "npm start --workspace=file-explorer"
   }
 }
