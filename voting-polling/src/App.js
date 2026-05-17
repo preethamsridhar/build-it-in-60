@@ -7,6 +7,7 @@ export default function App() {
   return (
     <div className="App">
       <Polling config={pollingConfig} />
+      <Polling config={pollingConfig} />
     </div>
   );
 }
