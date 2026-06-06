@@ -12,7 +12,8 @@
     "bar-chart-atlassian",
     "notification-razorpay",
     "voting-polling",
-    "file-explorer"
+    "file-explorer",
+    "boggle-dictionary"
   ],
   "scripts": {
     "start:c-grid-uber": "npm start --workspace=c-grid-uber",
@@ -23,6 +24,7 @@
     "start:bar-chart": "npm start --workspace=bar-chart-atlassian",
     "start:notification": "npm start --workspace=notification-razorpay",
     "start:polling": "npm start --workspace=voting-polling",
-    "start:file-explorer": "npm start --workspace=file-explorer"
+    "start:file-explorer": "npm start --workspace=file-explorer",
+    "start:boggle-dictionary": "npm start --workspace=boggle-dictionary"
   }
 }

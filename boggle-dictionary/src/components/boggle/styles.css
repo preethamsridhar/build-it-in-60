@@ -1,0 +1,27 @@
+.boggle__container {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+    position: relative;
+}
+
+.boggle__input {
+    background: white;
+    border-radius: 8px;
+    width: max-content;
+    margin: 12px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    gap: 12px;
+}
+
+.boggle__game {
+    background: white;
+    border-radius: 8px;
+    width: max-content;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
