@@ -1,13 +1,14 @@
 import { useState } from "react";
 import { useBoggleGame } from "../../hooks";
 import "./styles.css";
+import { Grid } from "../grid";
 
 export const Boggle = ({dictionary}) => {
 
     const [gridSize, setGridSize] = useState(6);
 
 
-    const {availableWords} = useBoggleGame(dictionary, gridSize);
+    const {availableWords, gridArray} = useBoggleGame(dictionary, gridSize);
 
     return (
         <div className="boggle__container">
@@ -25,15 +26,16 @@ export const Boggle = ({dictionary}) => {
             </div>
             <div className="boggle__game">
                 <div className="boggle__board">
-                    {/* Boards */}
+                    <Grid gridArray={gridArray} />
                 </div>
                 <div className="boggle__results">
                     <div clasName="boggle__found"></div>
                     <div clasName="boggle__available">
+                        Available words
                         {
                             availableWords.map(ele => {
                                 return (
-                                    <span key={ele}>ele</span>
+                                    <div key={ele}>{ele}</div>
                                 )
                             })
                         }

@@ -9,7 +9,6 @@
 .boggle__input {
     background: white;
     border-radius: 8px;
-    width: max-content;
     margin: 12px;
     padding: 12px;
     display: flex;
@@ -20,8 +19,10 @@
 .boggle__game {
     background: white;
     border-radius: 8px;
-    width: max-content;
-    display: flex;
-    flex-direction: column;
+    margin: 12px;
+    padding: 12px;
     gap: 12px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+
 }

@@ -3,12 +3,19 @@ export const DICTIONARY = ['react', 'javascript', 'frontend', 'uber', 'coding', 
 
 
 export const getRandomElements = (array, count) => {
-    console.log(array);
-    console.log(count);
+    const safeArray = Array.isArray(array) ? array.filter((item) => item != null) : [];
+    const requestedCount = Number(count) || 0;
+    const maxCount = Math.max(0, Math.min(requestedCount, safeArray.length));
+
+    if (maxCount === 0) {
+        return [];
+    }
 
     const result = new Set();
-    while(result.size < count) {
-        result.add(array[Math.floor(Math.random() * array.length)])
+    while(result.size < maxCount) {
+        result.add(safeArray[Math.floor(Math.random() * safeArray.length)])
     }
     return Array.from(result);
 }
+
+export const alphabets = [...'abcdefghijklmnopqrstuvwxyz'];

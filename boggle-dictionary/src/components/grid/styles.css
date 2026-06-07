@@ -1,0 +1,7 @@
+.grid__container {
+
+}
+.grid__row {
+    display: flex;
+    flex-direction: row;
+}
