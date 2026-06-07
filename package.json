@@ -13,7 +13,8 @@
     "notification-razorpay",
     "voting-polling",
     "file-explorer",
-    "line-board"
+    "line-board",
+    "cursor-tracker"
   ],
   "scripts": {
     "start:c-grid-uber": "npm start --workspace=c-grid-uber",
@@ -26,6 +27,7 @@
     "start:polling": "npm start --workspace=voting-polling",
     "start:file-explorer": "npm start --workspace=file-explorer",
     "start:boggle-dictionary": "npm start --workspace=boggle-dictionary",
-    "start:line-board": "npm start --workspace=line-board"
+    "start:line-board": "npm start --workspace=line-board",
+    "start:cursor-tracker": "npm start --workspace=cursor-tracker"
   }
 }
